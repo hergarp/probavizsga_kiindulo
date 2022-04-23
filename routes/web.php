@@ -26,7 +26,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('/szakdogak', [SzakdogakController::class, 'index']);
-Route::post('/szakdogak', [SzakdogaController::class, 'index']);
+Route::post('/szakdogak', [SzakdogaController::class, 'store']);
 Route::put('/szakdogak/{id}' , [SzakdogaController::class, 'update']);
 Route::delete('/szakdogak/{id}' , [SzakdogaController::class, 'destroy']);
 

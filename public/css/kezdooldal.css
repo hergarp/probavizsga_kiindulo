@@ -1,9 +1,16 @@
+main{
+  background-color: blueviolet;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
-  
+  td{
+    background-color: black;
+    color: #dddddd;
+  }
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
